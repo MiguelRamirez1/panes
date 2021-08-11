@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    width: 100%;
+    height: 600px;
+    background: #a465ec;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(34, 66%, 25%, 0.459), hsla(36, 63%, 35%, 0.664)), url(../media/fondo.JPG);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(34, 66%, 25%, 0.459), hsla(36, 63%, 35%, 0.664)), url(../media/fondo.JPG);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.texIzq h1{
+    font-size: 55px;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-family: 'Chicken Quiche';
+    margin-top: 10px;
+}
+.texIzq h3{
+    font-size: 30px;
+    text-align: left; 
+    color: rgb(255, 255, 255);
+    font-family: 'Student Smart';  margin-left: 10px;
+}
+.texIzq h4{
+    font-size: 20px;
+    text-align: left; 
+    color: rgb(255, 255, 255);
+    font-family: 'Student Smart';
+    margin-left: 10px;
+}
+h5{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: 'Student Smart';
+}
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Student Smart'; 
+    text-align: justify;
+}
+.form__input {
+	width: 90%;
+	height: 40px;
+	font-size: 14px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px 0;
+	border: 1px solid var(--tertiary-color, #ae2633);
+	background-color: var(--secondary-color, #fafafa);
+	color: var(--tertiary-color, #333333);
+    text-align: center;
+    margin-left: 10px;
+}
+.form__input::placeholder {
+	color: var(--tertiary-color, #1a1a1a);
+	opacity: 0.9;
+}
+
+#camp{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Student Smart';
+}
+
+#inicio{
+    margin-left: 500px;
+}
+
+.datos{
+    font-size:  20px;
+    width: 50%;
+    background-color: rgba(182, 164, 141, 0.671);
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+#foto{
+    margin-left: 480px;
+}
+
+#svg{
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.text{
+    margin-top: -750px;
+}
